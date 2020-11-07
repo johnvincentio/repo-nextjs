@@ -6,5 +6,11 @@ npm init -y
 npm install react react-dom next --save
 ```
 
+```
+http://localhost:3000
+http://localhost:3000/author
 
+http://localhost:3000/posts/awesome-nextjs-blog
+
+```
 
