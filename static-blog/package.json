@@ -1,0 +1,31 @@
+{
+  "name": "static-blog",
+  "version": "1.0.0",
+  "description": "[Building a static blog site with Markdown and Next.js](https://itnext.io/building-a-static-blog-site-with-markdown-and-next-js-702c515389b3)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@mdx-js/loader": "^1.5.4",
+    "@next/mdx": "^9.2.0",
+    "clsx": "^1.0.4",
+    "next": "^9.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "babel-plugin-macros": "^2.8.0",
+    "babel-plugin-preval": "^4.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-react": "^7.18.0"
+  }
+}
