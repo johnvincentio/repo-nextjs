@@ -1,0 +1,59 @@
+
+#
+# very similar to React version of run-mpm
+#
+
+npm i react@16.14.0 react-dom@16.14.0 react-router-dom@5.2.0 react-loadable
+npm i prop-types --save
+
+npm i react-icons react-loadable --save
+
+#
+#  general
+#
+npm i styled-components uuid dotenv classnames axios --save
+
+npm i node-sass --save
+
+npm i prettier --save
+
+#
+#  nextJs
+#
+
+npm i react-markdown gray-matter globby --save
+
+npm i next next-pwa --save
+
+npm i markdown-spellcheck --save-dev
+
+#
+# eslint
+#
+
+npm i @babel/runtime --save
+
+npm i eslint --save-dev
+
+npm i @babel/core babel-eslint babel-jest babel-loader --save-dev
+
+npm i @babel/plugin-proposal-class-properties @babel/plugin-proposal-object-rest-spread \
+@babel/plugin-syntax-dynamic-import @babel/plugin-transform-runtime \
+@babel/preset-env @babel/preset-react @babel/preset-typescript \
+babel-plugin-styled-components --save-dev
+
+npm i eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks --save-dev
+
+npm i eslint-config-airbnb eslint-config-prettier --save-dev
+
+npm i jest enzyme enzyme-adapter-react-16 react-test-renderer@16.4.0 --save-dev
+
+#
+#  install app specific
+#
+
+npm i disqus-react --save
+
+npm i google-map-react --save
+
+npm i react-leaf-carousel --save

@@ -1,0 +1,273 @@
+
+.jv1 {
+    color: yellow;
+}
+
+/* ----------------------------------- */
+/* Vendors */
+/* ----------------------------------- */
+
+// $icon-font-path: '../fonts/bootstrap/';
+
+@import 'bootstrap-sass/bootstrap';
+
+/* ----------------------------------- */
+/* Variables */
+/* ----------------------------------- */
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-anchor: #1f6bad;
+
+$color-primary-background: #337ab7;
+$color-border-background: #2e6da4;
+
+$color-text: #494949;
+$color-text-resume: #4c5058;
+
+$color-gray: #666666;
+$color-gray-border: #dddddd;
+
+// default to bootstrap
+$font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+
+@import 'mixins';
+
+/* ----------------------------------- */
+/* Basic setup */
+/* ----------------------------------- */
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+}
+
+pre {
+  tab-size: 2; /* Set tab size to 2 spaces */
+  -moz-tab-size: 2;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: $font-family;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: $font-family;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 300;
+}
+p {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+a {
+  color: $color-anchor;
+}
+
+a,
+a:active,
+a:focus,
+a:active {
+  text-decoration: none !important;
+}
+font header .navbar-default .navbar-nav li a:hover {
+  color: $color-black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+mark {
+  background-color: yellow;
+}
+
+.mytable {
+  tr td {
+    white-space: nowrap;
+  }
+  .yellow {
+    border: 1px solid #6f6e00;
+    color: black;
+    background-color: yellow;
+  }
+  .green {
+    border: 1px solid #286500;
+    color: black;
+    background-color: #53d000;
+  }
+  .yellow-green {
+    border: 1px solid #286500;
+    color: black;
+    background-color: #c8ea00;
+  }
+  .gray {
+    border: 1px solid #adadad;
+    color: black;
+    background-color: #e3e3e3;
+  }
+  .orange {
+    border: 1px solid #b20000;
+    color: black;
+    background-color: #ffc543;
+  }
+  .red {
+    border: 1px solid #b20000;
+    color: black;
+    background-color: #ff8989;
+  }
+}
+
+/* ----------------------------------- */
+/* Responsive */
+/* ----------------------------------- */
+
+/*
+ Default Layout: 992px.
+        Gutters: 24px.
+        Outer margins: 48px.
+        Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896
+
+  Tablet Layout: 768px.
+        Gutters: 24px.
+        Outer margins: 28px.
+        Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712
+*/
+
+/*
+  Mobile Layout: 320px.
+        Gutters: 24px.
+        Outer margins: 34px.
+        Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252
+*/
+/*
+Wide Mobile Layout: 480px.
+        Gutters: 24px.
+        Outer margins: 22px.
+        Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436
+*/
+/*	Retina media query.
+    Overrides styles for devices with a
+    device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------
+*/
+
+@media only screen and (max-width: 767px) {
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@import 'includes/about';
+
+@import 'includes/article-page';
+@import 'includes/blog-posts';
+@import 'includes/call-to-action';
+
+@import 'includes/contact/contact';
+@import 'includes/contact/contact-form';
+
+@import 'includes/footer';
+@import 'includes/google-map';
+@import 'includes/google-search';
+
+@import 'includes/header';
+
+@import 'includes/home/intro';
+@import 'includes/home/services';
+
+@import 'includes/portfolio/portfolio';
+@import 'includes/portfolio/portfolio-menu';
+@import 'includes/portfolio/portfolio-content';
+@import 'includes/portfolio/technologies';
+
+@import 'includes/resume';
+
+@import 'includes/social-icons';
+@import 'includes/subpage-header';
+
+@import 'includes/testimonials';
+
+@import 'includes/thanks';
+
+@media only screen and (min-width: 480px) and (max-width: 595px) {
+  /*--- Mobile landscape ---*/
+}
+@media only screen and (min-width: 595px) and (max-width: 690px) {
+  /*--- Small tablet portrait ---*/
+}
+@media only screen and (min-width: 690px) and (max-width: 800px) {
+  /*--- Tablet portrait ---*/
+}
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+  /*--- Small tablet landscape ---*/
+}
+@media only screen and (min-width: 1024px) and (max-width: 1224px) {
+  /*--- Tablet landscape --- */
+}
+@media only screen and (min-width: 1224px) {
+  /*--- Laptop --- */
+}
+@media only screen and (min-width: 1824px) {
+  /*--- Large Screen --- */
+}
+
+/* Big tablet to 1200px (widths smaller than 1140px row) */
+
+@media only screen and (max-width: 1200px) {
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+}
+
+/* Small phones to small tablets; from 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+}
+
+/* Small phones from 0 to 480px  */
+
+@media only screen and (max-width: 480px) {
+}

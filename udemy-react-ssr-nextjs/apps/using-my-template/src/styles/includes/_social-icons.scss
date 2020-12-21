@@ -1,0 +1,36 @@
+/* ----------------------------------- */
+/* _includes/social-icons.html         */
+/* ----------------------------------- */
+
+.social-icons {
+  font-size: 22px;
+
+  ul {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0;
+    li {
+      display: inline-block;
+      a {
+        svg {
+          color: #4a4656;
+          &:hover {
+            color: #000;
+          }
+        }
+      }
+    }
+    li:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .social-icons {
+    font-size: 18px;
+    ul li:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}

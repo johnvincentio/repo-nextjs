@@ -1,0 +1,125 @@
+{
+  "all": [
+    {
+      "image": "/images/technologies/digitalocean.png",
+      "name": "Digital Ocean"
+    },
+    {
+      "image": "/images/technologies/eslint.png",
+      "name": "Eslint"
+    },
+
+    {
+      "image": "/images/technologies/github.png",
+      "name": "Github"
+    },
+    {
+      "image": "/images/technologies/material-io.png",
+      "name": "Material Design"
+    },
+    {
+      "image": "/images/technologies/material-ui.ico",
+      "name": "Material UI"
+    },
+    {
+      "image": "/images/technologies/materialdesignicons.png",
+      "name": "Material Design Icons"
+    },
+    {
+      "image": "/images/technologies/react.ico",
+      "name": "React"
+    },
+    {
+      "image": "/images/technologies/reactd3.png",
+      "name": "React D3"
+    },
+    {
+      "image": "/images/technologies/redux.ico",
+      "name": "Redux"
+    },
+    {
+      "image": "/images/technologies/gatsby.png",
+      "name": "Gatsby"
+    },
+    {
+      "image": "/images/technologies/expressjs.png",
+      "name": "ExpressJS"
+    },
+    {
+      "image": "/images/technologies/mocha.ico",
+      "name": "Mocha"
+    },
+    {
+      "image": "/images/technologies/mongodb.ico",
+      "name": "MongoDB"
+    },
+    {
+      "image": "/images/technologies/nodejs.png",
+      "name": "NodeJS"
+    },
+    {
+      "image": "/images/technologies/npmjs.png",
+      "name": "NpmJS"
+    },
+    {
+      "image": "/images/technologies/passportjs.png",
+      "name": "PassportJS"
+    },
+    {
+      "image": "/images/technologies/jest.ico",
+      "name": "Jest"
+    },
+    {
+      "image": "/images/technologies/jwt.png",
+      "name": "Json Web Tokens"
+    },
+    {
+      "image": "/images/technologies/sass-lang.ico",
+      "name": "SASS"
+    },
+    {
+      "image": "/images/technologies/visual-studio-code.ico",
+      "name": "Visual Studio Code"
+    },
+    {
+      "image": "/images/technologies/webpack.ico",
+      "name": "Webpack"
+    },
+    {
+      "image": "/images/technologies/html5.ico",
+      "name": "Html5"
+    },
+    {
+      "image": "/images/technologies/css.png",
+      "name": "CSS3"
+    },
+    {
+      "image": "/images/technologies/java.png",
+      "name": "Java"
+    },
+    {
+      "image": "/images/technologies/javascript.jpg",
+      "name": "Javascript"
+    },
+    {
+      "image": "/images/technologies/jekyll.ico",
+      "name": "Jekyll"
+    },
+    {
+      "image": "/images/technologies/travis-ci.png",
+      "name": "Travis CI"
+    },
+    {
+      "image": "/images/technologies/heroku.ico",
+      "name": "Heroku"
+    },
+    {
+      "image": "/images/technologies/jquery.ico",
+      "name": "jQuery"
+    },
+    {
+      "image": "/images/technologies/bootstrap.ico",
+      "name": "Bootstrap"
+    }
+  ]
+}

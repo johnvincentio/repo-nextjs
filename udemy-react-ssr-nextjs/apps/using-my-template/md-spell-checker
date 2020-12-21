@@ -1,0 +1,22 @@
+#!/bin/sh
+#
+# script to spell check markdown files
+#
+PARAM="$1"
+# echo "PARAM :$PARAM:"
+#
+if [ -z "$PARAM" ]; then
+	echo "Spell Checker for all Markdown Files"
+	for FILE in `find . \( -path ./node_modules -o -path ./destination -o -path ./Not-in-use \) -prune -o -name '*.md' -print`
+	do
+		echo "Spell Checking Markdown file $FILE"
+		./node_modules/markdown-spellcheck/bin/mdspell -r -n -a --en-us $FILE
+		echo "Completed Spell Checking Markdown file $FILE"
+		echo " "
+	done
+else
+	echo "Spell Checking Markdown file $PARAM"
+	./node_modules/markdown-spellcheck/bin/mdspell -r -n -a --en-us $PARAM
+fi
+
+

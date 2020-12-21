@@ -1,0 +1,564 @@
+{
+  "summary": [
+    "Highly motivated, result driven Architect and Lead Developer with 20+ years of experience helping businesses identify challenges/opportunities and develop practical solutions through the use of technology.",
+    "Extensive experience in the development of highly-complex state-of-the-art software solutions in n-tier architecture environment and of architectural frameworks/patterns, application integration, processes, standards, and guidelines.",
+    "Extensive experience in analysis, design, development, and implementation of large-scale high transaction and high-performance JEE Architecture systems.",
+    "Proficient in Full Stack application architecture, design and development to augment server-side expertise for successful integration of both layers.",
+    "Excellent interpersonal skills, ability, and experience to lead a project and team through the full SDLC of project architecture/design/development to deliver high-quality products in a timely manner.",
+    "Experience in applying best practices, design patterns, strategies and documentation to Enterprise applications to ensure efficient design, code, and architecture. Ensures light coupling, maximum performance, and reduced maintenance/extensibility risks.",
+    "Excellent coding and analytical skills, and debugging and problem-solving skills. Highly organized, detail-oriented and process driven.",
+    "A technologist at heart, I love to work on complex, challenging, innovative projects and actively embrace new tools and technologies."
+  ],
+  "experience": [
+    {
+      "name": "Johnvincent.io",
+      "image": "/images/resume/johnvincent.png",
+      "position": "Software Architect & Full Stack Developer",
+      "link": "https://www.johnvincent.io/",
+      "dates": "January 2018 - Current",
+      "tasks": [
+        "A Task Management Productivity application, TaskMuncher is a fully responsive, Progressive Web Application (PWA) built on the MERN stack using React, Redux, Material-UI, Node, Express, and MongoDB.",
+        "johnvincent.io is my home website, describing my Services, Portfolio and Blog. It is a responsive, Progressive Web Application built using Gatsby, React, GraphQL, Markdown, Styled Components, HTML5, CSS3, SASS, Webpack, Jest, and Enzyme."
+      ]
+    },
+    {
+      "name": "Thinkful",
+      "image": "/images/resume/thinkful.png",
+      "position": "Full Stack Development",
+      "link": "https://www.thinkful.com/",
+      "dates": "January 2017 - August 2018",
+      "tasks": [
+        "Feediator is a fully responsive and mobile ready web-based RSS Feed Aggregator. Feediator is built using HTML5, CSS3, SASS, jQuery, Handlebars, Node, Express, and MongoDB.",
+        "jekyll.johnvincent.io is the V1 version of my Website featuring a Portfolio and Blog. It is built using Jekyll, HTML5, CSS3, Bootstrap, SASS, and jQuery."
+      ]
+    },
+    {
+      "name": "Hertz",
+      "image": "/images/resume/hertz.png",
+      "position": "Senior E-Commerce Architect / Technical Team Lead",
+      "link": "https://www.hertz.com/",
+      "dates": "February 2005 - May 2015",
+      "tasks": [
+        "Architect and Lead Developer, managing all technical aspects of the build and rollout of a new, feature-rich corporate, Rental Equipment website that resulted in a 68% increase in rental revenue.",
+        "Architect and Lead Developer, managing all technical aspects of the build and rollout of an automated application to find and report database replication issues. Resulted in client reported issues being reduced to zero.",
+        "Architect and Lead Developer for 2 SPAs using Backbone, HTML5, CSS3, JavaScript, jQuery, Jasmine, Responsive, SASS, Java Restful Web Services, and Adobe AEM.",
+        "Led hertz.com migration to latest versions of JEE, Java, DB2, and WebSphere."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "name": "Thinkful",
+      "image": "/images/resume/thinkful.png",
+      "position": "Web Development, Full Stack JavaScript Developer",
+      "link": "https://www.thinkful.com/",
+      "dates": "January 2017 - August 2018",
+      "tasks": [
+        "Intensive course on modern full-stack JavaScript development. Learned industry best practices and practical software development standards while learning new languages, tools, and frameworks. Developed the skills required to create & deploy fully functional applications.",
+        "The course focused on HTML5, CSS3, JavaScript, jQuery, Node.js, React, Redux, TDD, and algorithms & data structures."
+      ]
+    },
+    {
+      "name": "Marlboro College",
+      "image": "/images/resume/marlboro-college.png",
+      "position": "Master of Internet Engineering",
+      "link": "https://www.marlboro.edu/",
+      "dates": "August 2004",
+      "tasks": [
+        "Coursework focused on Java, JEE, Web Services, Databases, Internet Technologies, Systems Development and Conceptual Design."
+      ]
+    },
+    {
+      "name": "Imperial College, London, England",
+      "image": "/images/resume/imperial-college.png",
+      "position": "Associate of the Royal College of Science",
+      "link": "https://www.imperial.ac.uk/"
+    },
+    {
+      "name": "Imperial College, London, England",
+      "image": "/images/resume/imperial-college.png",
+      "position": "BSc Mathematics",
+      "link": "https://www.imperial.ac.uk/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front-end",
+      "skills": "React, Redux, Material-UI, Gatsby, GraphQL, JavaScript/ES6, jQuery, HTML5, CSS3, SASS, Jest, Enzyme, Jekyll, Handlebars, Bootstrap, Progressive Web Application"
+    },
+    {
+      "name": "Back-end",
+      "skills": "Node.js, Express.js, MongoDB/Mongoose, JWT, Passport, Mocha, Chai, REST APIs, JEE, Spring, Java, Spring Boot, Swing"
+    },
+    {
+      "name": "Dev Tools & Methods",
+      "skills": "Visual Studio Code, Balsamiq, Webpack, Eslint, Git, Github, Heroku, Travis CI, Google API, Facebook API, Responsive/mobile-first-design, Agile, TDD, Npm, Unix"
+    },
+    {
+      "name": "Devops",
+      "skills": "Digital Ocean, AWS, Ubuntu, Nginx, SSL, Unix Shell Scripting"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Home Website",
+      "image": "/images/resume/johnvincent.png",
+      "link": "https://www.johnvincent.io/",
+      "dates": "September 2019 - Current",
+      "details": "https://www.johnvincent.io/johnvincent/overview/",
+      "tasks": ["My home website featuring my Services, Portfolio and Blog."],
+      "technologies": [
+        {
+          "name": "Client Technologies",
+          "skills": "Gatsby, React, Progressive Web App, GraphQL, Markdown, Styled Components, HTML5, CSS3, SASS, Webpack, Jest, Enzyme, Eslint, Prettier, and Balsamiq."
+        },
+        {
+          "name": "Production Deployment",
+          "skills": "Digital Ocean, Ubuntu, Nginx, SSL certificates, and PM2."
+        }
+      ]
+    },
+    {
+      "name": "TaskMuncher",
+      "image": "/images/resume/taskmuncher.png",
+      "link": "https://www.taskmuncher.com/",
+      "dates": "October 2017 – Current",
+      "details": "https://www.johnvincent.io/taskmuncher/overview/",
+      "tasks": [
+        "A Task Management Productivity application, TaskMuncher is a fully responsive, Progressive Web Application (PWA) built on the MERN stack using React, Redux, Material-UI, Node, Express, and MongoDB.",
+        "Use TaskMuncher to organize and keep track of everything so you can get it all done and enjoy more peace of mind."
+      ],
+      "technologies": [
+        {
+          "name": "Client Technologies",
+          "skills": "Progressive Web Application, React, React DnD, React Router, Material-UI, Redux, Redux Devtools, Styled Components, HTML5, CSS3, SASS, Webpack, Jest, Enzyme, Eslint, Prettier, and Balsamiq."
+        },
+        {
+          "name": "Server Technologies",
+          "skills": "Node, Express, Mongo, Mongoose, JWT, JOI, Mocha, Chai, Winston, Morgan, Nodemailer, Gmail OAuth 2, Google Authentication, JS Doc, Eslint, and Prettier."
+        },
+        {
+          "name": "Production Deployment",
+          "skills": "Digital Ocean, AWS, Ubuntu, Nginx, SSL certificates, Node, Npm, Mongo, and PM2."
+        }
+      ]
+    },
+    {
+      "name": "MyTunes",
+      "image": "/images/resume/mytunes.png",
+      "link": "https://www.music.johnvincent.io/",
+      "dates": "April 2019 – Current",
+      "details": "https://www.johnvincent.io/johnvincent/mytunes-overview/",
+      "tasks": [
+        "MyTunes is a folder music player.",
+        "MyTunes is the easiest way to play music stored on your local drive.",
+        "Use MyTunes to organize your music any way you prefer."
+      ],
+      "technologies": [
+        {
+          "name": "Client Technologies",
+          "skills": "Progressive Web Application, React, Material-UI, Redux, Styled Components, HTML5, CSS3, SASS, Webpack, Jest, Enzyme, Eslint, Prettier, and Balsamiq."
+        },
+        {
+          "name": "Server Technologies",
+          "skills": "Node, Express, JOI, Mocha, Chai, Winston, Morgan, JS Doc, Eslint, and Prettier."
+        },
+        {
+          "name": "Production Deployment",
+          "skills": "Digital Ocean, Ubuntu, Nginx, SSL certificates, Node, Npm, and PM2."
+        }
+      ]
+		},
+		{
+			"name": "Gomoku",
+			"image": "/images/resume/gomoku.png",
+			"link": "https://www.gomoku.johnvincent.io/",
+			"dates": "May 2020 – Current",
+			"details": "https://www.johnvincent.io/johnvincent/gomoku-overview/",
+			"tasks": [
+				"Gomoku is a responsive, Progressive Web application version of the popular Gomoku game built using React.",
+				"Players alternate turns to place a stone of their color on an empty square.",
+				"The winner is the first player to form an unbroken chain of five stones horizontally, vertically, or diagonally."
+			],
+			"technologies": [
+				{
+					"name": "Client Technologies",
+					"skills": "Progressive Web Application, React, Redux, HTML5, CSS3, SASS, Webpack, Jest, Enzyme, Eslint, Prettier, and Balsamiq."
+				},
+				{
+					"name": "Server Technologies",
+					"skills": "Spring Boot, Java, Maven, and Eclipse."
+				},
+				{
+					"name": "Production Deployment",
+					"skills": "Digital Ocean, Ubuntu, Nginx, SSL certificates, Npm, and PM2."
+				}
+			]
+		},
+		{
+			"name": "Hangman",
+			"image": "/images/resume/hangman.png",
+			"link": "https://www.hangman.johnvincent.io/",
+			"dates": "March 2020 – April 2020",
+			"details": "https://www.johnvincent.io/johnvincent/hangman-overview/",
+			"tasks": [
+				"Hangman is a responsive, Progressive Web application version of the popular Hangman game built using React."
+			],
+			"technologies": [
+				{
+					"name": "Client Technologies",
+					"skills": "Progressive Web Application, React, Redux, HTML5, CSS3, SASS, Webpack, Jest, Enzyme, Eslint, Prettier, and Balsamiq."
+				},
+        {
+          "name": "Server Technologies",
+          "skills": "Node, Express, JOI, Mocha, Chai, Winston, Morgan, JS Doc, Eslint, and Prettier."
+        },
+        {
+          "name": "Production Deployment",
+          "skills": "Digital Ocean, Ubuntu, Nginx, SSL certificates, Node, Npm, and PM2."
+        }
+			]
+		},
+		{
+			"name": "Yahtzee",
+			"image": "/images/resume/yahtzee.png",
+			"link": "https://www.yahtzee.johnvincent.io/",
+			"dates": "February 2020",
+			"details": "https://www.johnvincent.io/johnvincent/yahtzee-overview/",
+			"tasks": [
+				"Yahtzee is a responsive, Progressive Web application version of the popular Yahtzee game built using React."
+			],
+			"technologies": [
+				{
+					"name": "Client Technologies",
+					"skills": "Progressive Web Application, React, HTML5, CSS3, SASS, Webpack, Jest, Enzyme, Eslint, Prettier, and Balsamiq."
+				},
+				{
+					"name": "Production Deployment",
+					"skills": "Digital Ocean, Ubuntu, Nginx, SSL certificates, Node, Npm, and PM2."
+				}
+			]
+		},
+		{
+			"name": "Lights Out",
+			"image": "/images/resume/lightsout.png",
+			"link": "https://www.lightsout.johnvincent.io/",
+			"dates": "December 2019",
+			"details": "https://www.johnvincent.io/johnvincent/lightsout-overview/",
+			"tasks": [
+				"Lights Out is a responsive, Progressive Web application version of the popular Lights Out game built using React."
+			],
+			"technologies": [
+				{
+					"name": "Client Technologies",
+					"skills": "Progressive Web Application, React, HTML5, CSS3, SASS, Webpack, Jest, Enzyme, Eslint, Prettier, and Balsamiq."
+				},
+				{
+					"name": "Production Deployment",
+					"skills": "Digital Ocean, Ubuntu, Nginx, SSL certificates, Node, Npm, and PM2."
+				}
+			]
+		},
+		{
+      "name": "Github Helper",
+      "image": "/images/resume/github-helper.png",
+      "link": "https://www.mygithub.johnvincent.io/",
+      "dates": "June 2019",
+      "details": "https://www.johnvincent.io/johnvincent/github-helper-overview/",
+      "tasks": [
+        "Github helper is a responsive, progressive web application that provides useful information about Github users.",
+        "It is built using React, HTML5, CSS3 and SASS. It is deployed to Digital Ocean using Ubuntu and Nginx."
+      ]
+		},
+    {
+      "name": "Feediator",
+      "image": "/images/resume/feediator.png",
+      "link": "https://www.feediator.com/",
+      "dates": "May 2017 – August 2017",
+      "details": "https://www.johnvincent.io/feediator/overview/",
+      "tasks": [
+        "Feediator is a web-based RSS Feed Aggregator. Keep up to date with the latest news from the publications you trust. Follow blogs from the movers, shakers, and thinkers."
+      ],
+      "technologies": [
+        {
+          "name": "Client Technologies",
+          "skills": "HTML5, CSS3, SASS, jQuery, Handlebars, x-editable, fully responsive, and mobile ready."
+        },
+        {
+          "name": "Server Technologies",
+          "skills": "Node, Express, Mongo, Mongoose, Joi, Mocha, Chai, Winston, Morgan, JWT, Handlebars, Gmail OAuth 2, JS Doc, Facebook and Google Authentication."
+        },
+        {
+          "name": "Production Deployment",
+          "skills": "Deployed by Travis to Heroku and Digital Ocean, Ubuntu, Nginx, SSL certificates, Node, Npm, Mongo, and PM2."
+        }
+      ]
+    },
+    {
+      "name": "Home Website (v1)",
+      "image": "/images/resume/johnvincent.png",
+      "link": "https://www.jekyll.johnvincent.io/",
+      "dates": "March 2017 – August 2019",
+      "details": "https://www.johnvincent.io/johnvincent/v1/overview/",
+      "tasks": ["The website describes my Services, Portfolio and Blog."],
+      "technologies": [
+        {
+          "name": "Client Technologies",
+          "skills": "Jekyll, Markdown, HTML5, CSS3, SASS, Bootstrap, Javascript, and jQuery."
+        },
+        {
+          "name": "Production Deployment",
+          "skills": "Digital Ocean, Ubuntu, Nginx, SSL certificates, and PM2"
+        }
+      ]
+    },
+    {
+      "name": "List and Search for my Useful Internet Resources",
+      "image": "/images/resume/johnvincent.png",
+      "link": "https://www.internet-resources.johnvincent.io/",
+      "dates": "February 2017 – March 2017",
+      "tasks": [
+        "A website to display internet resources I have found very useful in my roles as an Architect and a JavaScript Full Stack Developer.",
+        "It is built using Bootstrap, HTML5, CSS3, SASS, jQuery, JavaScript and is deployed to Digital Ocean using Ubuntu and Nginx."
+      ]
+    },
+
+    {
+      "name": "Rijksmuseum Collection",
+      "image": "/images/resume/johnvincent.png",
+      "link": "https://www.rijksmuseum.johnvincent.io/",
+      "dates": "May 2017",
+      "details": "https://www.johnvincent.io/johnvincent/rijksmuseum-overview/",
+      "tasks": [
+        "A magnificent art museum and collection at your fingertips.",
+				"See some of the wonders of the art world.",
+				"It is built using HTML5, CSS3, SASS, JavaScript, jQuery and is deployed to Digital Ocean."
+      ]
+    },
+    {
+      "name": "Peg Solitaire",
+      "image": "/images/resume/johnvincent.png",
+      "link": "https://www.peg-solitaire.johnvincent.io/",
+      "dates": "April 2017",
+			"details": "https://www.johnvincent.io/johnvincent/peg-solitaire-overview/",
+			"tasks": [
+				"Play Peg Solitaire with this web-based implementation.",
+				"Drag and drop with helpful hints or let the game show you solutions."
+      ],
+      "technologies": [
+        {
+          "name": "Client Technologies",
+          "skills": "HTML5, CSS3, SASS, JavaScript, and jQuery."
+        },
+        {
+          "name": "Server Technologies",
+          "skills": "Spring Boot, Java, Maven, and Eclipse"
+        },
+        {
+          "name": "Production Deployment",
+          "skills": "Digital Ocean, Ubuntu, Nginx, SSL certificates, and PM2."
+        }
+			]
+		},
+    {
+      "name": "Sudoku",
+      "image": "/images/resume/johnvincent.png",
+      "dates": "September 2016 – October 2016",
+      "details": "https://www.johnvincent.io/johnvincent/sudoku-overview/",
+      "tasks": [
+				"Play Sudoku Solver and Generator.",
+				"It is built using Java Swing."
+      ]
+		},
+		{
+      "name": "Gomoku",
+      "image": "/images/resume/johnvincent.png",
+      "dates": "April 2016 – May 2016",
+      "details": "https://www.johnvincent.io/johnvincent/gomoku-java-overview/",
+      "tasks": [
+				"Play Gomoku (Five in a Row).",
+				"It is built using Java Swing."
+      ]
+		},
+		{
+      "name": "File Compare Tool",
+      "image": "/images/resume/johnvincent.png",
+      "dates": "February 2016 – March 2016",
+      "details": "https://www.johnvincent.io/johnvincent/compare-all-overview/",
+      "tasks": [
+				"Recursively Compare Directories.",
+				"It is built using Java Swing."
+      ]
+		},
+		{
+      "name": "File Explorer",
+      "image": "/images/resume/johnvincent.png",
+      "dates": "September 2015",
+      "details": "https://www.johnvincent.io/johnvincent/explorer-overview/",
+      "tasks": [
+				"Explore the contents of a file.",
+				"It is built using Java Swing."
+      ]
+		},
+		{
+      "name": "Visual Grep",
+      "image": "/images/resume/johnvincent.png",
+      "dates": "June 2015",
+      "details": "https://www.johnvincent.io/johnvincent/grep-overview/",
+      "tasks": [
+				"Visual Grep Utility, simplifying the search.",
+				"It is built using Java Swing."
+      ]
+		},
+    {
+      "name": "Hertz Equipment Rental Website",
+      "image": "/images/resume/hertz.png",
+      "dates": "February 2005 – May 2015",
+      "tasks": [
+        "Senior Architect, Team Leader and Lead Developer of a rental equipment website. A feature-rich application suite which among its many features allows members and retail users to reserve and/or buy rental equipment. It integrates with internally hosted counter systems for real-time customer and equipment information, rental rates and reservations for the US and other countries, real-time customer financial reporting, fleet management and reporting, KPI and up-to-date equipment sales information. An Administration web application manages all aspects of the application including users and groups, privileges, user data, equipment, and accounts. The Batch Job Scheduler web application manages a large number of batch jobs that are an integral part of the application suite. Fully localized and weighs in at over 1 million lines of code."
+      ],
+      "responsibilities": [
+        "Managing a team of 4 – 10+ people.",
+        "Providing primary Architecture and Technical Leadership roles.",
+        "Lead Developer.",
+        "Provided Subject Matter Expertise with regard to the core application and integration.",
+        "Led business requirements and technical specification efforts."
+      ],
+      "technologies": [
+        {
+          "name": "Client Technologies",
+          "skills": "HTML, SASS, CSS, Media Queries, JavaScript, jQuery, Backbone, Responsive, Mobile ready."
+        },
+        {
+          "name": "Server Technologies",
+          "skills": "JEE, Java, Spring, Struts, Hibernate, EJB, JSP, JSTL, JDBC, DB2, LDAP, Web Services, Tiles, Jacl, Log4j, jUnit, Cactus, Quartz, Jasper, Lucene, Freemarker, XML, XSD, Swing"
+        },
+        {
+          "name": "Development Environment",
+          "skills": "RAD, Eclipse, Ant, Maven, Git, SourceTree"
+        },
+        {
+          "name": "Production Deployment",
+          "skills": "WebSphere, Apache, and Akamai."
+        }
+      ]
+    },
+    {
+      "name": "DB2 Data Replication Checker",
+      "image": "/images/resume/hertz.png",
+      "dates": "April 2014 – May 2014",
+      "tasks": [
+        "DB2 data is replicated between 3 data centers. Reports from users of data loss would be received. Each report would have to be investigated and resolved, taking large amounts of development time. A replication problem that is not immediately resolved can spiral into a large data loss. Replication problems were frequent and only apparent when reported by a user. A quality and cost problem.",
+        "Designed and built an application that retrieved all data by Database table from each of the data centers and compared them. Any differences were reported to the job log. Implemented as a job run by the new Job Scheduler where any failed job would immediately notify web operations of a failure.",
+        "Any replication problem was immediately reported to web operations and the DBAs who were able to quickly make a fix."
+      ],
+      "technologies": [
+        {
+          "name": "Technologies",
+          "skills": "Application uses JEE, Java, Web Services and DB2 and is deployed to WebSphere."
+        }
+      ]
+    },
+    {
+      "name": "Build Hertz Entertainment Services and Cinelease Websites and Mobile Apps as a SPA.",
+      "image": "/images/resume/hertz.png",
+      "dates": "July 2013 – January 2014",
+      "tasks": [
+        "Architect and Lead Developer for 2 SPAs using Backbone, HTML5, CSS3, JavaScript, jQuery, Jasmine, Responsive, SASS, Java Restful web services, and Adobe AEM. Fully responsive and mobile ready, utilizing Application Caching installs as an application on a mobile device. Fully functional without network access.",
+        "The SPAs use the identical code base with different CSS, content, and catalogs.",
+        "Deployed using Akamai, Apache, and WebSphere."
+      ]
+    },
+    {
+      "name": "Job Scheduler",
+      "image": "/images/resume/hertz.png",
+      "dates": "April 2012 – August 2012",
+      "tasks": [
+        "The applications were now using 20+ repeating batch jobs that were mostly run at night. The batch job application had very poor error handling and error reporting capabilities. The hardware was outmatched which caused near constant job failures. Investigating the failures and managing the tool so it eventually got the jobs done was consuming maybe 15% of my teams' effort.",
+        "I designed a JEE application in 3 pieces.",
+        "- Administration application to administer all jobs. Jobs could be added, updated, deleted, started or stopped by the admin application. All jobs provided messages for its own job log which was viewable from the administration application. All server logs are viewable from the application.",
+        "- A job engine which is responsible for running the jobs. Jobs are run according to their own schedule. The engine was responsible for handling jobs that failed.",
+        "- The jobs themselves. They are built on a standard framework so they all behave the same way.",
+        "The Administration application uses JEE, Java, Struts 2, JSP, HTML, CSS, Quartz, DB2, XML.",
+        "The Jobs engine uses Quartz, JEE, Web Services, DB2.",
+        "The jobs themselves are implemented as Web Services with a custom interface to ensure compliance.",
+        "Everything deployed to WebSphere running on Linux servers.",
+        "The administration of the Job Scheduler was handed over to the Web Operations Group.",
+        "Running of batch jobs became more predictable. When a job failed, a web operations person could identify the problem and restart the job.",
+        "The error reporting now allowed for all errors to be reported in logs that were easy to find. It allowed for a quick diagnosis of the problem. All problems were tracked.",
+        "In a short period of time, I was able to use the application and it’s error logs to prove to the business that the hardware was insufficient. This data was used as financial justification for new hardware.",
+        "With the upgraded hardware the problems and the amount of team effort consumed were reduced to almost zero."
+      ]
+    },
+    {
+      "name": "Hertz.com WebSphere migration",
+      "image": "/images/resume/hertz.png",
+      "dates": "April 2005 – August 2005",
+      "tasks": [
+        "Hertz Rental Cars were using an outdated version of WebSphere. It would soon be off maintenance, it lacked features, wasn't being updated and was a liability.",
+        "I built a WebSphere configuration framework using Jacl and a Java Swing application to configure and manage the server and workspace configurations. This enabled for the quick, reliable and predictable construction of complex WebSphere servers, thus enabling the JEE migration to proceed smoothly. All code was updated to the latest versions of Java/JEE and WebSphere.",
+        "All e-commerce websites were built-on and deployed to up-to-date WebSphere servers, increasing reliability and maintainability of all websites."
+      ]
+    },
+    {
+      "name": "Web Enterprise Application Framework",
+      "image": "/images/resume/johnvincent.png",
+      "dates": "September 2004 – January 2005",
+      "tasks": [
+        "Built a web enterprise application framework and many websites from that framework. Used a CMS, Java, JSP, Struts, J2EE, HTML, CSS, WebLogic, Ant and Eclipse."
+      ]
+    },
+    {
+      "name": "Supply Chain application",
+      "image": "/images/resume/johnvincent.png",
+      "dates": "June 2004 – August 2004",
+      "tasks": [
+        "Built a Supply Chain application using JEE, Java, Struts, JSP, Session Beans, MDB, EJB, JAX-RPC, JNDI, JDBC, JMS, Connection Pooling, SAAJ, SOAP, WSDL, XML, XSLT, Ant, Oracle, Oracle PL/SQL, Rational Rose, SunOne Application Server, Web Services, JSTL, EL, Custom Tag Libs, Custom JSP Templates, HTML and CSS."
+      ]
+    },
+    {
+      "name": "Online store application",
+      "image": "/images/resume/johnvincent.png",
+      "dates": "March 2004 – May 2004",
+      "tasks": [
+        "Built MVC JSP Online Store and ported it to WebLogic and WebSphere. Built using JEE, Java, Struts, EJBs, and JSPs. Used an Oracle database with Stored Procedures and Connection Pooling."
+      ]
+    },
+    {
+      "name": "Client/Server Scrabble",
+      "image": "/images/resume/johnvincent.png",
+      "dates": "January 2004 – February 2004",
+      "tasks": [
+        "Built a Client/Server Scrabble Game which is a Sockets, multi-threaded, graphical Java Swing app."
+      ]
+    },
+
+    {
+      "name": "",
+      "image": "",
+      "link": "",
+      "dates": "",
+      "details": "",
+      "tasks": [""],
+      "responsibilities": [""],
+      "technologies": [
+        {
+          "name": "Client Technologies",
+          "skills": ""
+        },
+        {
+          "name": "Server Technologies",
+          "skills": ""
+        },
+        {
+          "name": "Development Environment",
+          "skills": ""
+        },
+        {
+          "name": "Production Deployment",
+          "skills": ""
+        }
+      ]
+    }
+  ]
+}

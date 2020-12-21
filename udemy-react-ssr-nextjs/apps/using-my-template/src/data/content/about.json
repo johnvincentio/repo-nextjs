@@ -1,0 +1,43 @@
+{
+  "title": "About",
+	"subtitle": "Software Architect and Javascript Full Stack, React, Node & Java Developer.",
+	"image": "/images/site/john-vincent.jpg",
+  "text": [
+    {
+      "id": 0,
+      "text": "I am a hands-on techie with extensive experience helping businesses identify challenges/opportunities and develop practical solutions through the use of technology."
+    },
+    {
+      "id": 1,
+      "text": "Extensive experience in the development of highly-complex state-of-the-art software solutions in n-tier architecture environment and of architectural frameworks/patterns, application integration, processes, standards, and guidelines."
+    },
+    {
+      "id": 2,
+      "text": "Extensive experience in analysis, design, development, and implementation of large-scale, high transaction and high-performance JEE Architecture systems."
+    },
+    {
+      "id": 3,
+      "text": "Full Stack application architecture, design, and development to augment server-side expertise for successful integration of both layers."
+    },
+    {
+      "id": 4,
+      "text": "Excellent interpersonal skills, ability, and experience to lead a project and team through the full SDLC of project architecture/design/development to deliver high-quality products in a timely manner."
+    },
+    {
+      "id": 5,
+      "text": "Experience in applying best practices, design patterns, strategies and documentation to Enterprise applications to ensure efficient design, code, and architecture. Ensures light coupling, maximum performance, and reduced maintenance/extensibility risks."
+    },
+    {
+      "id": 6,
+      "text": "Excellent coding and analytical skills, and debugging and problem-solving skills. Highly organized, detail-oriented and process driven."
+    },
+    {
+      "id": 7,
+      "text": "A technologist at heart, I love to work on complex, challenging, innovative projects and actively embrace new tools and technologies."
+    },
+    {
+      "id": 8,
+      "text": "An insatiable curiosity leads me to a wide array of interests. A history buff, fascinated by how the world today is shaped by past events. Traveling to see and experience different cultures. Photography to capture the beauty of the world. A love of classical music and opera I sing in a choir. A one-time cyclist and tennis player, now a yoga and spinning enthusiast."
+    }
+  ]
+}

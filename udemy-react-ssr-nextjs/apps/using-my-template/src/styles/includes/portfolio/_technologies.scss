@@ -1,0 +1,67 @@
+/* ----------------------------------- */
+/* _includes/technologies.html         */
+/* ----------------------------------- */
+
+#technologies-logo-section {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+
+  overflow: hidden;
+  width: 70%;
+
+  .technologies-logo-div {
+    display: inline-block;
+    position: relative;
+    height: auto;
+    width: 60px;
+    margin-top: 20px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .tech-tooltip .tech-tooltiptext {
+    visibility: hidden;
+    // visibility: visible;
+
+    background-color: #555;
+    color: #fff;
+
+    border-radius: 6px;
+
+    min-width: 100%;
+    text-align: center;
+
+    padding: 10px 5px;
+
+    position: absolute;
+    top: 50%;
+    margin-top: -60%;
+    left: 50%;
+    margin-left: -50%;
+    z-index: 1;
+
+    @include opacity(0);
+    @include transition(opacity 0.3s);
+  }
+
+  .tech-tooltip:hover .tech-tooltiptext {
+    visibility: visible;
+    @include opacity(1);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #technologies-logo-section {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #technologies-logo-section {
+    width: 80%;
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "header": [
+    {
+      "text": "Home",
+      "url": "/",
+      "href": "/"
+    },
+    {
+      "text": "About",
+      "url": "/about/",
+      "href": "/about"
+    },
+    {
+      "text": "Portfolio",
+      "url": "/portfolio/",
+      "href": "/portfolio"
+    },
+    {
+      "text": "Blog",
+      "url": "/blog/",
+      "href": "/blog"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact/",
+      "href": "/contact"
+    },
+    {
+      "text": "Resume",
+      "url": "/resume/",
+      "href": "/resume"
+    }
+  ]
+}
