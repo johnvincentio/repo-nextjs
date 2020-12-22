@@ -19,14 +19,10 @@ const Home = (props) => {
 		// console.log('renderShows; props.shows ', props.shows);
 		 props.shows.map((item, index) => {
 			 const { show } = item;
-			 if (! show || ! show.image) {
-				 return "";
-			 }
-			// console.log('renderShows; map');
-			const jv = 10;
+			const image = (! show.image) ? `https://via.placeholder.com/210x295?text=?`: show.image.medium;
 			return (
 				<li key={index}>
-					<Thumbnail imageUrl={show.image.medium} caption={show.name} />
+					<Thumbnail imageUrl={image} caption={show.name} />
 				</li>
 			)
 		})

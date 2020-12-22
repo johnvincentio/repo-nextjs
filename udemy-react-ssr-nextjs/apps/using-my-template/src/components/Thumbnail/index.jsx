@@ -15,7 +15,6 @@ const Thumbnail = ({ imageUrl, caption }) => {
 	);
 }
 
-
 export default Thumbnail;
 
 /*
