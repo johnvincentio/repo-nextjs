@@ -1,4 +1,9 @@
 
+# Debugger
+
+See [Debugging Next.js](https://www.johnvincent.io/visual-studio-code/)
+
+
 # NextJs
 
 [TVMaze](https://www.tvmaze.com/api)

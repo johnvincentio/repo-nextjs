@@ -13,7 +13,11 @@ npm i react-icons react-loadable --save
 #
 npm i styled-components uuid dotenv classnames axios --save
 
-npm i node-sass --save
+#
+#  sass
+#
+# npm i node-sass --save
+npm i sass --save
 
 npm i prettier --save
 

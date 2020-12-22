@@ -1,0 +1,16 @@
+
+.thumbnail {
+	text-align: center;
+
+	&__image {
+		width: auto;
+		height: 200px;
+		border: 1px solid red;
+	}
+
+	&__caption {
+		text-align: center;
+		padding: 10px;
+		border: 1px solid blue;
+	}
+}

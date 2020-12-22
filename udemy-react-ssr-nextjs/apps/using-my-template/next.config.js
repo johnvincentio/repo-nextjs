@@ -1,5 +1,7 @@
 //
 
+// const path = require('path');
+
 const withPWA = require('next-pwa');
 const runtimeCaching = require('next-pwa/cache');
 
@@ -16,6 +18,9 @@ module.exports = withPWA({
 	env: {
 		JV_MODE: process.env.JV_MODE
 	}
+	// sassOptions: {
+	// 	includePaths: [path.join(__dirname, 'styles')],
+	// }
 	// webpack: (config, { isServer }) => {
 	// 	if (isServer) {
 	// 		require('./src/scripts/sitemap');

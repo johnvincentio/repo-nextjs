@@ -26,6 +26,7 @@ const Home = (props) => {
 			const jv = 10;
 			return (
 				<li key={index}>
+					{show.name}
 					<Thumbnail imageUrl={show.image.medium} caption={show.name} />
 				</li>
 			)
