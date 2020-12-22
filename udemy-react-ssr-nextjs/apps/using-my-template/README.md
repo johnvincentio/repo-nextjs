@@ -1,11 +1,39 @@
 
 # NextJs
 
+[TVMaze](https://www.tvmaze.com/api)
+
+```
+http://api.tvmaze.com/schedule/web?date=2020-05-29&country=US
+```
+
 Can also use
 
 ```
 npx create-next-app tvshow-pro
 ```
+
+
+
+
+# Course Notes
+
+My course was launched on Jan 2020, but Next.js team already made an update on their API which might affect you if you install the latest Next.js version.
+
+Since version 9.3, Next.js now comes with a couple new methods to be used when fetching data for a page. So now, instead of only getInitialProps, we have:
+
+* getStaticProps
+* getServerSideProps (which is equivalent of getInitialProps for us)
+
+I'd like to reinforce that getInitialProps is still compatible with the latest version.
+
+However, if you would like to follow the documentation and start using getServerSideProps instead you are more than welcome to do it. But remember: you will need to stick with that till the end. Mixing the 2 methods won't work.
+
+
+
+
+
+# General Doc
 
 [Nextjs](https://nextjs.org/)
 
