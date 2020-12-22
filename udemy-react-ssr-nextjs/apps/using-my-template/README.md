@@ -21,6 +21,7 @@ npx create-next-app tvshow-pro
 
 
 
+
 # Course Notes
 
 My course was launched on Jan 2020, but Next.js team already made an update on their API which might affect you if you install the latest Next.js version.

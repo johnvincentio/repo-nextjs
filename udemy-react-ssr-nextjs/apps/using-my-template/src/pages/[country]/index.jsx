@@ -47,4 +47,5 @@ Country.getInitialProps = async (context) => {
 		country
 	}
 }
+
 export default Country;

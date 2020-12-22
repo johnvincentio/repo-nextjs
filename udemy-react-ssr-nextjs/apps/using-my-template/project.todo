@@ -1,0 +1,31 @@
+
+alt-d to complete a task.
+cmd return to create a task.
+
+
+☐ use getServerSideProps, must use the same throughout.
+
+```
+export const getServerSideProps = async ({ query }) => {
+  const { showId } = query;
+ 
+  try {
+    const response = await axios.get(
+      `https://api.tvmaze.com/shows/${showId}?embed=cast`
+    );
+ 
+    return {
+      props: {
+        show: response.data,
+      },
+    };
+  } catch (error) {
+    return {
+      props: {
+        error: error.error,
+      },
+    };
+  }
+};
+```
+
