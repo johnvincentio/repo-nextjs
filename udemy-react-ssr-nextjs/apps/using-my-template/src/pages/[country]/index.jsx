@@ -7,7 +7,9 @@ import axios from 'axios';
 
 import Thumbnail from '../../components/Thumbnail';
 
-const Home = (props) => {
+import styles from './Country.module.scss';
+
+const Country = ({ shows, country }) => {
 	// console.log('Home; props ', props);
 
 	// useEffect(() => {
@@ -17,29 +19,32 @@ const Home = (props) => {
 
 	const renderShows = () => 
 		// console.log('renderShows; props.shows ', props.shows);
-		 props.shows.map((item, index) => {
+		 shows.map((item, index) => {
 			 const { show } = item;
 			const image = (! show.image) ? `https://via.placeholder.com/210x295?text=?`: show.image.medium;
 			return (
 				<li key={index}>
-					<Thumbnail imageUrl={image} caption={show.name} />
+					<Thumbnail imageUrl={image} caption={show.name} href="/[country]/[showId]" as={`/${country}/${show.id}`} />
 				</li>
 			)
 		})
 	
 	return (
-		<ul className="tvshows-grid">{renderShows()}</ul>
+		<ul className={styles.country__grid}>
+			{renderShows()}
+		</ul>
 	);
 }
 
-Home.getInitialProps = async (context) => {
+Country.getInitialProps = async (context) => {
 	// console.log('Home; getInitialProps; context ', context);
 	const country = context.query.country || 'us';
 
 	const response = await axios.get(`http://api.tvmaze.com/schedule?country=${country}&date=2020-12-21`);
 	// console.log('Home; getInitialProps; response ', response);
 	return {
-		shows: response.data
+		shows: response.data,
+		country
 	}
 }
-export default Home;
+export default Country;

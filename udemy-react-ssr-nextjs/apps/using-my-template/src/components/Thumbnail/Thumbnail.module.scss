@@ -1,10 +1,12 @@
 
 .thumbnail {
+	display: flex;
+	flex-direction: column;
 	text-align: center;
 
 	&__image {
-		width: auto;
-		height: 200px;
+		width: 150px;
+		height: auto;
 		border: 1px solid red;
 	}
 
