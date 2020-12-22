@@ -59,10 +59,11 @@
   ],
   "license": "MIT",
   "scripts": {
-    "dev": "JV_MODE=development next -p 3200",
-    "dev:prod:build": "JV_MODE=local_production next build",
+		"clean": "rimraf .next out",
+     "dev": "npm run clean && JV_MODE=development next -p 3200",
+    "dev:prod:build": "npm run clean && JV_MODE=local_production next build",
     "dev:prod:start": "JV_MODE=local_production next start -p 3225",
-    "production": "JV_MODE=production next build && JV_MODE=production next export"
+    "production": "npm run clean && JV_MODE=production next build && JV_MODE=production next export"
   },
   "repository": {
     "type": "git",

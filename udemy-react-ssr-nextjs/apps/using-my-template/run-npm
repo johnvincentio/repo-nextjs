@@ -13,6 +13,8 @@ npm i react-icons react-loadable --save
 #
 npm i styled-components uuid dotenv classnames axios --save
 
+npm i rimraf --save-dev
+
 #
 #  sass
 #
