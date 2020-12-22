@@ -8,7 +8,7 @@ import axios from 'axios';
 import Thumbnail from '../../components/Thumbnail';
 
 const Home = (props) => {
-	console.log('Home; props ', props);
+	// console.log('Home; props ', props);
 
 	// useEffect(() => {
 	// 	axios.get('http://api.tvmaze.com/schedule/web?date=2020-05-29&country=US')
@@ -28,7 +28,7 @@ const Home = (props) => {
 		})
 	
 	return (
-		<ul className="tvshows">{renderShows()}</ul>
+		<ul className="tvshows-grid">{renderShows()}</ul>
 	);
 }
 
