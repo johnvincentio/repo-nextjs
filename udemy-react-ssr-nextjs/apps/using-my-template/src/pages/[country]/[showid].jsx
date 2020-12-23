@@ -3,34 +3,39 @@ import React from 'react';
 
 import axios from 'axios';
 
-import styles from './ShowDetails.module.scss';
+import parse from 'html-react-parser';
 
-const ShowDetails = props => {
-	console.log('ShowDetails; props ', props);
+import Cast from '../../components/Cast'
+import styles from './Details.module.scss';
+
+const Details = props => {
+	// console.log('Details; props ', props);
 	const { show } = props;
-	const { name, image } = show;
+	const { name, image, summary, _embedded } = show;
 	return (
-		<div className="show-details">
-			<div className="show-details__poster" style={{ backgroundImage: `url(${image.original})`}} />
+		<div className={styles.details}>
+			<div className={styles.details__poster} style={{ backgroundImage: `url(${image.original})` }} />
 			<h1>{name}</h1>
+			{parse(summary)}
 
-
+			<Cast cast={_embedded.cast} />
 		</div>
 	);
 }
 
-ShowDetails.getInitialProps = async (context) => {
-	// console.log('ShowDetails; getInitialProps; context ', context);
+Details.getInitialProps = async (context) => {
+	console.log('ShowDetails; getInitialProps; context.query ', context.query);
+	const { country, showid } = context.query;
 	// const country = context.query.country || 'us';
 
-	const response = await axios.get(`http://api.tvmaze.com/shows/1?embed=cast`);
-	console.log('ShowDetails; getInitialProps; response ', response);
+	const response = await axios.get(`http://api.tvmaze.com/shows/${showid}?embed=cast`);
+	// console.log('Details; getInitialProps; response ', response);
 	return {
 		show: response.data,
 	}
 }
 
-export default ShowDetails;
+export default Details;
 
 /*
 			<style jsx>{`

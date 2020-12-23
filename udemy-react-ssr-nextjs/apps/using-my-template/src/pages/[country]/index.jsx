@@ -20,7 +20,7 @@ const Country = ({ shows, country }) => {
 	const renderShows = () => 
 		// console.log('renderShows; props.shows ', props.shows);
 		 shows.map((item, index) => {
-			 const { show } = item;
+			const { show } = item;
 			const image = (! show.image) ? `https://via.placeholder.com/210x295?text=?`: show.image.medium;
 			return (
 				<li key={index}>

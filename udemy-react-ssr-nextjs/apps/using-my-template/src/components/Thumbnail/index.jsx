@@ -5,7 +5,8 @@ import Link from 'next/link';
 import styles from './Thumbnail.module.scss';
 
 const Thumbnail = ({ imageUrl, caption, href = '', as = '' }) => {
-	// console.log('Thumbnail');
+	console.log('Thumbnail');
+	console.log('imageUrl ', imageUrl, ' caption ', caption);
 	// console.log('styles ', styles);
 	const jv = 0;
 	return (

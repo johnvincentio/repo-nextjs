@@ -8,6 +8,8 @@ npm i prop-types --save
 
 npm i react-icons react-loadable --save
 
+npm i html-react-parser --save
+
 #
 #  general
 #

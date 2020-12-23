@@ -13,6 +13,7 @@
     "globby": "^11.0.1",
     "google-map-react": "^2.1.9",
     "gray-matter": "^4.0.2",
+    "html-react-parser": "^1.0.0",
     "next": "^10.0.3",
     "next-pwa": "^5.0.0",
     "prettier": "^2.2.1",
@@ -59,8 +60,8 @@
   ],
   "license": "MIT",
   "scripts": {
-		"clean": "rimraf .next out",
-     "dev": "npm run clean && JV_MODE=development next -p 3200",
+    "clean": "rimraf .next out",
+    "dev": "npm run clean && JV_MODE=development next -p 3200",
     "dev:prod:build": "npm run clean && JV_MODE=local_production next build",
     "dev:prod:start": "JV_MODE=local_production next start -p 3225",
     "production": "npm run clean && JV_MODE=production next build && JV_MODE=production next export"
