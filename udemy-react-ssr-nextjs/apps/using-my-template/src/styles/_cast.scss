@@ -2,8 +2,9 @@
 .cast__list {
 	display: flex;
 	flex-direction: row;
-	overflow-x: scroll;
-	// flex-wrap: wrap;
+	// overflow-x: scroll;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 
 	& > li {
 		margin-right: 10px;

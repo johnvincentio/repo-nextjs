@@ -7,7 +7,7 @@ import Thumbnail from './Thumbnail';
 const Cast = ({ cast }) => {
 	// console.log('Cast; cast ', cast);
 	const renderCast = () => cast.map((item, index) => {
-		const { name, image } = item.character;
+		const { name, image } = item.person;
 		const imageUrl = (image && image.medium) || undefined;
 
 		return (

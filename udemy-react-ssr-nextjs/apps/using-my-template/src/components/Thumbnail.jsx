@@ -8,10 +8,10 @@ import Link from 'next/link';
 
 const Thumbnail = ({ imageUrl, caption, href, as, small }) => {
 	// console.log('Thumbnail; imageUrl ', imageUrl, ' caption ', caption, ' href ', href, ' as ', as);
-	const clzSize = small ? `large` : `small`;
+	const clzSize = small ? `thumbnail__small` : `thumbnail__large`;
 
 	if (! href || ! as) return (
-		<div className="thumbnail">
+		<div className={`thumbnail ${clzSize}`}>
 			<img className={`thumbnail__image ${clzSize}`} src={imageUrl} alt={caption} />
 			<div className="thumbnail__caption">{caption}</div>
 		</div>

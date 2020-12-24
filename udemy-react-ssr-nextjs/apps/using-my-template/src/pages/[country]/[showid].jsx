@@ -58,4 +58,3 @@ Details.defaultProps = {
 };
 
 export default Details;
-

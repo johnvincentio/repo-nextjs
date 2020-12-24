@@ -9,12 +9,12 @@
 		border: 1px solid red;
 	}
 
-	.large { width: 100%; }
-	.small { width: 100px; }
-
 	&__caption {
 		text-align: center;
 		padding: 10px;
 		border: 1px solid blue;
 	}
 }
+
+.thumbnail__large { width: 100%; }
+.thumbnail__small { width: 100px; }
