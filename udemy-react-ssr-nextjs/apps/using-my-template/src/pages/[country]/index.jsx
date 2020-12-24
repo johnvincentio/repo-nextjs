@@ -6,6 +6,8 @@ import PropTypes from 'prop-types';
 
 import Error from 'next/error';
 
+import cookies from 'nookies';
+
 import axios from 'axios';
 
 import MainLayout from '../../components/MainLayout';
@@ -47,7 +49,8 @@ const Country = ({ shows, country, statusCode }) => {
 export const getServerSideProps = async (context) => {
 	// console.log('Country; getServerSideProps; context ', context);
 	try {
-		const country = context.query.country || 'us';
+		const { defaultCountry } = cookies.get(context);
+		const country = context.query.country || defaultCountry || 'us';
 
 		const response = await axios.get(`http://api.tvmaze.com/schedule?country=${country}`);
 		// console.log('Country; getServerSideProps; response ', response);

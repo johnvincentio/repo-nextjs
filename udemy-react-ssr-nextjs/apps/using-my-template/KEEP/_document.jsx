@@ -6,7 +6,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 export default class MyDocument extends Document {
 	static async getInitialProps(ctx) {
-		// console.log('ctx.pathname ', ctx.pathname);
+		console.log('MyDocument::getInitialProps; ctx.pathname ', ctx.pathname);
 		const initialProps = await Document.getInitialProps(ctx)
 		return { ...initialProps }
 		// return await Document.getInitialProps(ctx)

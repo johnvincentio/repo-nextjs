@@ -10,8 +10,6 @@ import cookies from 'nookies';
 import CustomInput from '../components/CustomInput';
 import validateEmail from '../utils/validators/validateEmail';
 import validateRequired from '../utils/validators/validateRequired';
-// email
-// password
 
 const initialState = {
 	email: '',
@@ -27,7 +25,6 @@ const Signin = () => {
 		e.preventDefault();
 
 		const { email, password } = signinInfo;
-
 		if (!email || !password) {
 			return;
 		}
@@ -36,16 +33,19 @@ const Signin = () => {
 			const response = await axios.post(process.env.SERVER_URL,
 				{ apiKey: process.env.API_KEY, ...signinInfo }
 			);
-
 			cookies.set(null, 'token', response.data.token, { path: '/' });
 			const { plannedRoute } = cookies.get();
+			console.log('plannedRoute ', plannedRoute);
 
 			const parsedPlannedRoute = plannedRoute && JSON.parse(plannedRoute);
+			console.log('parsedPlannedRoute ', parsedPlannedRoute);
 
 			const plannedHrefRoute = parsedPlannedRoute
 				? parsedPlannedRoute.href
 				: '/[country]';
 			const plannedAsRoute = parsedPlannedRoute ? parsedPlannedRoute.as : '/us';
+			console.log('plannedHrefRoute ', plannedHrefRoute);
+			console.log('plannedAsRoute ', plannedAsRoute);
 
 			router.replace(plannedHrefRoute, plannedAsRoute);
 		} catch (error) {

@@ -11,7 +11,7 @@ const authenticate = (context) => {
 		context,
 		'plannedRoute',
 		JSON.stringify({
-			as: context.asPath || `/${context.query.country}/${context.query.showId}`,
+			as: context.asPath || `/${context.query.country}/${context.query.showid}`,
 			href: context.pathname || '/[country]/[showid]',
 		}),
 		{ path: '/' }
