@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://www.nextjs.johnvincent.io/sitemap.xml
-Host: https://www.nextjs.johnvincent.io

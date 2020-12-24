@@ -1,0 +1,18 @@
+
+.thumbnail {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+	&__image {
+		width: 150px;
+		height: auto;
+		border: 1px solid red;
+	}
+
+	&__caption {
+		text-align: center;
+		padding: 10px;
+		border: 1px solid blue;
+	}
+}
