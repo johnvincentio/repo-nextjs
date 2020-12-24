@@ -46,12 +46,12 @@ const Country = ({ shows, country, statusCode }) => {
 }
 
 export const getServerSideProps = async (context) => {
-	console.log('Country; getServerSideProps; context ', context);
+	// console.log('Country; getServerSideProps; context ', context);
 	try {
 		const country = context.query.country || 'us';
 
 		const response = await axios.get(`http://api.tvmaze.com/schedule?country=${country}`);
-		console.log('Country; getServerSideProps; response ', response);
+		// console.log('Country; getServerSideProps; response ', response);
 		return {
 			props: {
 				shows: response.data,

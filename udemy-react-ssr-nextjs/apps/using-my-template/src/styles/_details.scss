@@ -1,9 +1,11 @@
 
 .details {
+	text-align: center;
 
 	&__poster {
-		// height: 200px;
 		height: 50vh;
-		background-size: cover;
+		width: auto;
+		// height: 50vh;
+		// background-size: cover;
 	}
 }

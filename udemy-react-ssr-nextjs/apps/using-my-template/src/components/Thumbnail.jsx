@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import Link from 'next/link';
 
 const Thumbnail = ({ imageUrl, caption, href, as, small }) => {
-	console.log('Thumbnail; imageUrl ', imageUrl, ' caption ', caption, ' href ', href, ' as ', as);
+	// console.log('Thumbnail; imageUrl ', imageUrl, ' caption ', caption, ' href ', href, ' as ', as);
 	const clzSize = small ? `large` : `small`;
 
 	if (! href || ! as) return (
