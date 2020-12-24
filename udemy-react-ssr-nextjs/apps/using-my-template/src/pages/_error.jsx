@@ -19,7 +19,7 @@ const Error = ({ statusCode }) => {
 	return <h1>Oops! Something went wrong...</h1>;
 };
 
-Error.getServerSideProps = ({ err, res }) => ({
+export const getServerSideProps = ({ err, res }) => ({
 	props: {
 		statusCode: 404
 	},
