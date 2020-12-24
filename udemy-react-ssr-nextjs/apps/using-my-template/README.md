@@ -1,13 +1,4 @@
 
-https://tvshow-pro.now.sh/us
-
-https://iwallet-api.herokuapp.com/api/auth/signin
-
-{
-	"email": "bo@email",
-	"password": "bo"
-}
-
 
 # Debugger
 

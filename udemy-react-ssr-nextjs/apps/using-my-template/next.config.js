@@ -16,8 +16,11 @@ module.exports = withPWA({
 		publicExcludes: []
 	},
 	env: {
-		JV_MODE: process.env.JV_MODE
+		JV_MODE: process.env.JV_MODE,
+		SERVER_URL: `https://www.apis.johnvincent.io/api/token`,
+		API_KEY: `kdjgb0ertgw48u59ksbkluois.nluoe,4wo/e$@nuvz;ogj;ri`
 	}
+
 	// sassOptions: {
 	// 	includePaths: [path.join(__dirname, 'styles')],
 	// }

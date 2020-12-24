@@ -33,9 +33,8 @@ const Signin = () => {
 		}
 
 		try {
-			const response = await axios.post(
-				'https://iwallet-api.herokuapp.com/api/auth/signin',
-				{ ...signinInfo }
+			const response = await axios.post(process.env.SERVER_URL,
+				{ apiKey: process.env.API_KEY, ...signinInfo }
 			);
 
 			cookies.set(null, 'token', response.data.token, { path: '/' });
