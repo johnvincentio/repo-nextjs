@@ -11,6 +11,16 @@ npm i react-icons react-loadable --save
 npm i html-react-parser --save
 
 #
+# cors
+#
+npm i cors --save
+
+#
+# cookies
+#
+npm i nookies --save
+
+#
 #  general
 #
 npm i styled-components uuid dotenv classnames axios --save

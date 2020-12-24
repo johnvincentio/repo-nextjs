@@ -1,15 +1,20 @@
 
-import React from 'react';
+// import React from 'react';
 
-import MainLayout from '../components/MainLayout';
+import Router from 'next/router';
+import cookies from 'nookies';
 
-const Home = () => {
-	console.log('Home');
-	return (
-		<MainLayout>
-			<h1>This is the home page</h1>
-		</MainLayout>
-	);
+const Home = () => null;
+
+export const getServerSideProps = (context) => {
+	const { defaultCountry } = cookies.get(context);
+	const country = context.query.country || defaultCountry || 'us';
+
+	process.browser
+		? Router.replace('/[country]', `${country}`)
+		: context.res.writeHead(302, { Location: `/${country}` });
+
+	context.res.end();
 };
 
 export default Home;

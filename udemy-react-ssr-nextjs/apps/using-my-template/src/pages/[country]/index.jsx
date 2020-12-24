@@ -34,8 +34,7 @@ const Country = ({ shows, country, statusCode }) => {
 				</li>
 			)
 		})
-	
-	
+		
 	return (
 		<MainLayout>
 			<ul className="country__grid">

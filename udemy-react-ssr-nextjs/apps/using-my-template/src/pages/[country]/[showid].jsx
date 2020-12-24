@@ -2,16 +2,28 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Error from 'next/error';
+
 import parse from 'html-react-parser';
 
 import axios from 'axios';
 
 import MainLayout from '../../components/MainLayout';
-import Cast from '../../components/Cast'
+import Cast from '../../components/Cast';
 
-const Details = ({ show }) => {
+import {
+	withAuthorization,
+	withAuthServerSideProps,
+} from '../../utils/withAuthorization';
+
+const Details = ({ show, statusCode }) => {
 	// console.log('Details; show ', show);
 	const { name, image, summary, _embedded } = show;
+
+	if (statusCode) {
+		return <Error statusCode={statusCode} />;
+	}
+
 	return (
 		<MainLayout>
 			<div className="details">
@@ -26,12 +38,10 @@ const Details = ({ show }) => {
 	);
 }
 
-export const getServerSideProps = async (context) => {
+const getComponentServerSideProps = async (context) => {
 	try {
 		// console.log('Details; getComponentServerSideProps; props.query ', context.query);
 		const { showid } = context.query;
-		// const country = context.query.country || 'us';
-
 		const response = await axios.get(`http://api.tvmaze.com/shows/${showid}?embed=cast`);
 		// console.log('Details; getInitialProps; response ', response);
 		return {
@@ -50,11 +60,15 @@ export const getServerSideProps = async (context) => {
 }
 
 Details.propTypes = {
-	show: PropTypes.object		// eslint-disable-line react/forbid-prop-types
+	show: PropTypes.object,	// eslint-disable-line react/forbid-prop-types
+	statusCode: PropTypes.number
 };
 
 Details.defaultProps = {
-	show: {}
+	show: {},
+	statusCode: undefined
 };
 
-export default Details;
+export const getServerSideProps = withAuthServerSideProps(getComponentServerSideProps);
+
+export default withAuthorization(Details);
