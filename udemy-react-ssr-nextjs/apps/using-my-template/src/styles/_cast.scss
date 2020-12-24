@@ -1,0 +1,12 @@
+
+.cast__list {
+	display: flex;
+	flex-direction: row;
+	overflow-x: scroll;
+	// flex-wrap: wrap;
+
+	& > li {
+		margin-right: 10px;
+		border: 1px solid green;
+	}
+}

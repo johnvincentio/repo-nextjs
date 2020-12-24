@@ -5,10 +5,12 @@
 	text-align: center;
 
 	&__image {
-		width: 150px;
-		height: auto;
+		// height: auto;
 		border: 1px solid red;
 	}
+
+	.large { width: 100%; }
+	.small { width: 100px; }
 
 	&__caption {
 		text-align: center;
