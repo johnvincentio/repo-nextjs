@@ -3,8 +3,15 @@ import '../styles/styles.scss';
 
 import React from 'react';
 
+import Header from '../components/Header';
+
 function MyApp({ Component, pageProps }) {
-	return <Component {...pageProps} />
+	return (
+		<>
+			<Header />
+			<Component {...pageProps} />
+		</>
+	)
 }
 
 // Only uncomment this method if you have blocking data requirements for
